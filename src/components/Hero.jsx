@@ -1,6 +1,9 @@
 import React from "react";
 
-import Image from '../images/handPhone.png'
+import Image from '../images/handPhone.png';
+
+import { FiDatabase } from 'react-icons/fi';
+import { MdSecurity, MdOutlineDesignServices, MdOutlineCloudUpload } from 'react-icons/md';
 
 
 function Hero(){
@@ -15,6 +18,15 @@ function Hero(){
         </div>
         <div>
           <img src={Image} alt="/" className="w-full"/>
+        </div>
+        <div className="absolute flex flex-col py-8 md:min-w-[47.5rem] bottom-[5%] mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-200 border border-slate-300 rounded-xl text-center shadow-xl">
+          <p>Our Services</p>
+          <div className="flex justify-between flex-wrap px-4">
+            <p className="flex px-4 py-2 text-slate-500"><FiDatabase className="h-6 text-indigo-600"/>Database</p>
+            <p className="flex px-4 py-2 text-slate-500"><MdOutlineCloudUpload className="h-6 text-indigo-600"/>Cloud</p>
+            <p className="flex px-4 py-2 text-slate-500"><MdSecurity className="h-6 text-indigo-600"/>Security</p>
+            <p className="flex px-4 py-2 text-slate-500"><MdOutlineDesignServices className="h-6 text-indigo-600"/>Ui/Ux</p>
+          </div>
         </div>
       </div>
 
