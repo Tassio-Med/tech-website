@@ -4,7 +4,7 @@ import { FaInstagram, FaFacebook, FaGithub, FaLinkedin, FaTwitter } from 'react-
 
 function Footer() {
   return(
-    <div className="w-full mt-24 bg-slate-900 text-gray-300 py-y px-2">
+    <div name="contact" className="w-full mt-24 bg-slate-900 text-gray-300 py-y px-2">
       <div className="max-w-[77.5rem] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-8">
         <div>
           <h6 className="font-bold uppercase pt-2">Soluções</h6>

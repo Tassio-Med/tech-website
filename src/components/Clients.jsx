@@ -4,7 +4,7 @@ import {SiNasa, SiRedhat, SiNubank, SiTesla, SiXiaomi, SiFord} from 'react-icons
 
 function Clients(){
   return (
-    <div name='platforms' className='w-full my-32'>
+    <div name="trabalhos" className='w-full my-32'>
       <div className='max-w-[1240px] mx-auto px-2'>
         <h2 className='text-5xl font-bold text-center'>Nossos Clientes</h2>
         <p className='text-2xl py-8 text-gray-500 text-center'>

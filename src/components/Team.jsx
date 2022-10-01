@@ -9,7 +9,7 @@ import teamImg from '../images/tech-group.png'
 
 function Team(){
   return (
-    <div className="w-full mt-24">
+    <div name="team" className="w-full mt-24">
       <div className="w-full h-[43.75rem] bg-gray-900/90 absolute">
         <img src={teamImg} alt="time" className="w-full h-full object-cover mix-blend-overlay"/>
       </div>
