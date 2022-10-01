@@ -14,10 +14,10 @@ function Navbar()  {
           <h1 className="text-3xl font-semibold mr-4 md:text-4xl">LOGO.</h1>
           <ul className="hidden md:flex">
             <li>Home</li>
-            <li>About</li>
-            <li>Platforms</li>
-            <li>Pricing</li>
-            <li>Contact</li>
+            <li>Sobre nós</li>
+            <li>Soluções</li>
+            <li>Trabalhos</li>
+            <li>Contatos</li>
           </ul>
         </div>
         <div className="hidden md:flex pr-4">
@@ -31,10 +31,10 @@ function Navbar()  {
       </div>
       <ul className={!navbar ? "hidden" : "absolute bg-zinc-200 w-full px-8"}>
         <li className="border-b-2 border-zinc-300 w-full">Home</li>
-        <li className="border-b-2 border-zinc-300 w-full">About</li>
-        <li className="border-b-2 border-zinc-300 w-full">Platforms</li>
-        <li className="border-b-2 border-zinc-300 w-full">Pricing</li>
-        <li className="border-b-2 border-zinc-300 w-full">Contact</li>
+        <li className="border-b-2 border-zinc-300 w-full">Sobre nós</li>
+        <li className="border-b-2 border-zinc-300 w-full">Soluções</li>
+        <li className="border-b-2 border-zinc-300 w-full">Trabalhos</li>
+        <li className="border-b-2 border-zinc-300 w-full">Contatos</li>
         <div className="flex flex-col my-4">
           <button className="bg-transparent text-indigo-600 px-8 py-3 mb-4">Sign In</button>
           <button className="px-8 py-3">Sign Up</button>
